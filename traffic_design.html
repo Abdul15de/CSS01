@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>traffic light using border and border radius </title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+                }
+        .main{
+            height: 600px;
+            width: 200px;
+            background-color: brown;
+            border: 10px solid black;
+            border-radius: 10px;
+
+        }
+        .c
+        {
+            height: 180px;
+            width 40px;
+            border: 5px solid black;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-right: 10px;
+           
+        }
+       
+        #r:hover{
+            background-color: red;
+            margin-top: 10px;
+        }
+        #y:hover{
+            background-color: yellow;
+        }
+        #g:hover{
+            background-color: green;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+    <div class="c" id="r"></div><br>
+    <div class="c" id="y"></div><br>
+    <div class="c" id="g"></div><br>
+  </div>
+</body>
+</html>
