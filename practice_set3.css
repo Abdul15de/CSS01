@@ -1,0 +1,22 @@
+header{
+    height: 30px;
+    background-color: #5f9ea0;
+}
+a
+{
+    text-decoration: none;
+    margin-right: 250px;
+ 
+    color: black;
+}
+main
+{
+    height: 600px;
+}
+footer{
+    height: auto;
+    background-color: #5f9ea0;
+
+    color: black;
+    text-align: center;
+}
