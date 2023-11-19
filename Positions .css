@@ -1,0 +1,48 @@
+
+#main
+{
+    height: 120px;
+    width: 600px;
+    border: 2px solid black;
+    position: relative;
+    margin: 100px;
+
+
+
+}
+.con
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#static
+{
+  position: static;
+  /* In static positioning top,bottom,left,right does not work */
+  top: 100px;
+  left: 200px;
+  background: mediumseagreen;
+}
+#absolute
+{
+    position: absolute;
+   top: 10px;
+   left: 1000px;
+
+}
+#fixed
+{
+ position: fixed;
+ top: 10px;
+ left: 190px;
+
+}
+#sticky
+{
+    position: sticky;
+    background: palegreen;
+    top: 100px;
+}
