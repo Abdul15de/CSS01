@@ -8,6 +8,9 @@ nav{
     height: 50px;
     background-color: cornflowerblue;
     border: 5px solid black;
+    position: fixed;
+    width: 100%;
+    top: 10px;
 }
 .links
 {
